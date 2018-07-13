@@ -1,0 +1,18 @@
+﻿manager: 整合业务方法
+service: 业务实现
+dal: 数据库操作
+domain: 实体（dto返回的封装实体已Dto结尾，form请求条件实体已Form结尾 继承model实体）
+common: 基础工具类
+web： web相关操作
+
+1.业务方法名称
+查询单个实体get开头
+查询列表 query开头
+插入 insert 开头
+更新 update 开头
+删除 delete 开头
+
+
+# 后期上线 需修改 序列ID 日期格式
+序列号日期格式
+YYMMddHHmmss
